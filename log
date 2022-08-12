@@ -68,3 +68,14 @@ Fri 12 Aug 2022 01:10:50 PM UTC:
  tests:  1|6
 total_score: 10/70
 4b0c4d6
+Fri 12 Aug 2022 01:21:35 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:41:3: error: ‘buscar’ undeclared (first use in this function)
+   41 |   buscar = *(a+x);
+      |   ^~~~~~
+exercises.c:41:3: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+de2196b
