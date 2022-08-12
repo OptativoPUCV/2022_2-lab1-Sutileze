@@ -35,3 +35,13 @@ exercises.c:40:8: error: expected ‘;’ before ‘sumaN’
 cc1: all warnings being treated as errors
 Compilation failed
 00bf335
+Fri 12 Aug 2022 01:09:19 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:20: error: expected expression before ‘]’ token
+   40 |   * suma = sumaN(a[],m);
+      |                    ^
+Compilation failed
+f1ef511
