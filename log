@@ -20,3 +20,18 @@ Fri 12 Aug 2022 12:54:52 PM UTC:
  tests:  1|6
 total_score: 10/70
 cc09ae8
+Fri 12 Aug 2022 01:04:40 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:3: error: statement with no effect [-Werror=unused-value]
+   40 |   *suma sumaN(a[],m);
+      |   ^~~~~
+exercises.c:40:8: error: expected ‘;’ before ‘sumaN’
+   40 |   *suma sumaN(a[],m);
+      |        ^~~~~~
+      |        ;
+cc1: all warnings being treated as errors
+Compilation failed
+00bf335
