@@ -85,3 +85,19 @@ Fri 12 Aug 2022 01:21:46 PM UTC:
  tests:  1|6
 total_score: 10/70
 5b04c30
+Fri 12 Aug 2022 01:29:56 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:42:20: error: passing argument 2 of ‘sumaN’ makes integer from pointer without a cast [-Werror=int-conversion]
+   42 |   * suma = sumaN(a,buscar);
+      |                    ^~~~~~
+      |                    |
+      |                    int *
+exercises.c:21:24: note: expected ‘int’ but argument is of type ‘int *’
+   21 | int sumaN(int a[], int N) {
+      |                    ~~~~^
+cc1: all warnings being treated as errors
+Compilation failed
+0598176
