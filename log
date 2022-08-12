@@ -2,3 +2,9 @@ Fri 12 Aug 2022 12:48:53 PM UTC:
  tests:  0|7
 total_score: 0/70
 7633c33
+Fri 12 Aug 2022 12:52:36 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|6
+total_score: 10/70
+a0a512d
