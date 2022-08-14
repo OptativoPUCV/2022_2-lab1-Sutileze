@@ -168,3 +168,24 @@ exercises.c:110:18: error: invalid type argument of unary ‘*’ (have ‘Vecto
       |                  ^~~~~
 Compilation failed
 3124cef
+Sun 14 Aug 2022 03:54:11 AM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:110:3: error: invalid type argument of unary ‘*’ (have ‘Vector’)
+  110 |   *c[i] = *a[i]+ *b[i];
+      |   ^~~~~
+exercises.c:110:11: error: invalid type argument of unary ‘*’ (have ‘Vector’)
+  110 |   *c[i] = *a[i]+ *b[i];
+      |           ^~~~~
+exercises.c:110:18: error: invalid type argument of unary ‘*’ (have ‘Vector’)
+  110 |   *c[i] = *a[i]+ *b[i];
+      |                  ^~~~~
+exercises.c: In function ‘crearPersona’:
+exercises.c:66:1: error: control reaches end of non-void function [-Werror=return-type]
+   66 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+d1ffd6c
