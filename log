@@ -339,3 +339,9 @@ exercises.c:82:11: note: previous definition of ‘v’ was here
       |           ^
 Compilation failed
 74a7d02
+Sun 14 Aug 2022 09:10:17 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  8|0
+total_score: 70/70
+736064b
