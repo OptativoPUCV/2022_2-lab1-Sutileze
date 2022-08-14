@@ -132,3 +132,16 @@ exercises.c:60:3: error: ‘p’ undeclared (first use in this function)
 exercises.c:60:3: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 90ff462
+Sun 14 Aug 2022 03:34:07 AM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:62:15: error: assignment to expression with array type
+   62 |   p[0].nombre =  nombre;
+      |               ^
+exercises.c:63:12: error: assignment to expression with array type
+   63 |   p[0].rut =  rut;
+      |            ^
+Compilation failed
+c54bf9a
