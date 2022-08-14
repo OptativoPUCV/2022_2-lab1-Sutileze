@@ -145,3 +145,26 @@ exercises.c:63:12: error: assignment to expression with array type
       |            ^
 Compilation failed
 c54bf9a
+Sun 14 Aug 2022 03:50:33 AM UTC: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:62:15: error: assignment to expression with array type
+   62 |   p[0].nombre =  nombre;
+      |               ^
+exercises.c:63:12: error: assignment to expression with array type
+   63 |   p[0].rut =  rut;
+      |            ^
+exercises.c: In function ‘sumaV’:
+exercises.c:110:3: error: invalid type argument of unary ‘*’ (have ‘Vector’)
+  110 |   *c[i] = *a[i]+ *b[i];
+      |   ^~~~~
+exercises.c:110:11: error: invalid type argument of unary ‘*’ (have ‘Vector’)
+  110 |   *c[i] = *a[i]+ *b[i];
+      |           ^~~~~
+exercises.c:110:18: error: invalid type argument of unary ‘*’ (have ‘Vector’)
+  110 |   *c[i] = *a[i]+ *b[i];
+      |                  ^~~~~
+Compilation failed
+3124cef
