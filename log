@@ -271,3 +271,17 @@ Sun 14 Aug 2022 05:38:09 PM UTC:
  tests:  6|2
 total_score: 50/70
 aa8bd0d
+Sun 14 Aug 2022 09:06:05 PM UTC: 
+ exercises.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:83:15: error: expected ‘)’ before ‘malloc’
+   83 |   v = (Vector*malloc(sizeof(n)));
+      |       ~       ^~~~~~
+      |               )
+exercises.c:83:33: error: expected expression before ‘;’ token
+   83 |   v = (Vector*malloc(sizeof(n)));
+      |                                 ^
+Compilation failed
+bb942de
