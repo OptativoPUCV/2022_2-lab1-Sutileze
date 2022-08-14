@@ -207,3 +207,16 @@ exercises.c:66:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 b6df5ed
+Sun 14 Aug 2022 05:30:17 PM UTC: 
+ exercises.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:110:16: error: invalid operands to binary + (have ‘Vector’ and ‘Vector’)
+  110 |     c[i] = a[i]+ b[i];
+      |            ~~~~^ ~~~~
+      |             |     |
+      |             |     Vector
+      |             Vector
+Compilation failed
+61c67fc
