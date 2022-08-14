@@ -121,3 +121,14 @@ exercises.c:61:3: error: ‘pers’ undeclared (first use in this function)
       |   ^~~~
 Compilation failed
 ced3e70
+Sun 14 Aug 2022 03:33:35 AM UTC: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:60:3: error: ‘p’ undeclared (first use in this function)
+   60 |   p = (Persona*)malloc(sizeof(Persona)*1);
+      |   ^
+exercises.c:60:3: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+90ff462
