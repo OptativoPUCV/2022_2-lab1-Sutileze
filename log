@@ -285,3 +285,24 @@ exercises.c:83:33: error: expected expression before ‘;’ token
       |                                 ^
 Compilation failed
 bb942de
+Sun 14 Aug 2022 09:06:26 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:83:15: error: expected ‘)’ before ‘malloc’
+   83 |   v = (Vector*malloc(sizeof(n));
+      |       ~       ^~~~~~
+      |               )
+exercises.c:86:1: error: expected expression before ‘}’ token
+   86 | }
+      | ^
+exercises.c:82:11: error: variable ‘v’ set but not used [-Werror=unused-but-set-variable]
+   82 |   Vector *v =  NULL;
+      |           ^
+exercises.c:86:1: error: control reaches end of non-void function [-Werror=return-type]
+   86 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+9a83b92
